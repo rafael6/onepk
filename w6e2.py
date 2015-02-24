@@ -3,10 +3,10 @@ __author__ = 'rafael'
 from onepk_helper import NetworkDevice
 from onep.interfaces import NetworkInterface, InterfaceFilter
 
-rtr1 = {'ip': '50.242.94.227', 'username': 'pyclass', 'password': '88newclass',
-        'pin_file': 'pynet-rtr1-pin.txt', 'port': 15002}
-rtr2 = {'ip': '50.242.94.227', 'username': 'pyclass', 'password': '88newclass',
-        'pin_file': 'pynet-rtr2-pin.txt', 'port': 8002}
+rtr1 = {'ip': '10.1.1.1', 'username': 'a_user', 'password': 'a_password',
+        'pin_file': 'pynet-rtr1-pin.txt', 'port': 12345}
+rtr2 = {'ip': '10.2.2.2', 'username': 'a_user', 'password': 'a_password',
+        'pin_file': 'pynet-rtr2-pin.txt', 'port': 6789}
 
 
 def get_intstat(obj):
