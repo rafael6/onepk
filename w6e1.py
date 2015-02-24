@@ -2,8 +2,8 @@ __author__ = 'rafael'
 
 from onepk_helper import NetworkDevice
 
-rtr1 = {'ip': '50.242.94.227', 'username': 'pyclass', 'password': '88newclass',
-        'pin_file': 'device_name', 'port': 12345}
+rtr1 = {'ip': '10.1.2.3', 'username': 'auname', 'password': 'apassword',
+        'pin_file': 'devicename', 'port': 12345}
 
 
 def main():
